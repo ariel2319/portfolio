@@ -1,0 +1,35 @@
+:root {
+  --primary-bgcolor: #fff;
+  --secondary-bgcolor: #f0f9fc;
+  --tertiary-color: #555000;
+  --primary-text-color: DarkSlateGray;
+  --secondary-text-color:GhostWhite ;
+  --tertiary-text-color: ;
+  --accent-color: dodgerblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('../assets/bg-main.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%; 
+  background-attachment: fixed;
+  color: black;
+  font-size: 24px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
+.app-navbar{
+  width: 20%;
+}
+.app-body{
+  width: 80%;
+}

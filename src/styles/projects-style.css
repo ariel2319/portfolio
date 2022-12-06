@@ -1,0 +1,6 @@
+.project-container{
+  width: 100%;
+  height: 300px;
+  background-color: var(--primary-bgcolor);
+  border: 1px solid greenyellow;
+}
