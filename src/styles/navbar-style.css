@@ -3,6 +3,7 @@
   width: 20%;
   height: 100vh;
   position: fixed;
+  font-family: Jurko;
 }
 
 .nav-info{
@@ -10,15 +11,80 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
 }
 
+.nav-info h2{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 .nav-contacts{
-  border: 1px solid greenyellow;
   display: flex;
   justify-content: space-around;
+  margin-bottom: 15px;
+}
+.nav-contacts i{
+  font-size: 1.5rem;
+  margin: 10px;
 }
 
-.nav-contacts i{
-  font-size: 1rem;
-  margin: 5px;
+
+
+/* Foto Mágica je */
+.nav-img-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .nav-img-profile::after{
+  content: '';
+  position: absolute;
+  background: transparent;
+  inset: 4px;
+} */
+.nav-img-profile::before {
+  content: '';
+  position: absolute;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  background: linear-gradient(black, white);
+  animation: animate 4s linear infinite;
+}
+@keyframes animate {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.nav-img-profile img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  margin: 10px;
+}
+
+/*  secciones nav  */
+.nav-sections{
+  margin: 10px;
+}
+.nav-sections div {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-sections div:hover, .nav-contacts i:hover{
+  color: var(--secondary-text-color);
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: var(--primary-text-color);
 }

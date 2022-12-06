@@ -7,12 +7,20 @@
   --tertiary-text-color: ;
   --accent-color: dodgerblue;
 }
-
+/*      GENERL     */
+@font-face {
+  font-family: Jurko;
+  src: url(../assets/ALT_JURKO.otf);
+}
 * {
   margin: 0;
   padding: 0;
 }
-
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: Jurko;
+  color: var(--primary-text-color);
+}
 body{
   background-image: url('../assets/bg-main.jpg');
   background-repeat: no-repeat;

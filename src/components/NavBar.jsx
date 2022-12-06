@@ -4,24 +4,32 @@ import '../styles/navbar-style.css'
 const NavBar = () => {
   return (
     <div className='nav-container'>
-      <h1>NavBar</h1>
       <div className='nav-info'>
-        
-        <h2>Ariel Maldonado</h2>
-        <img src="" alt="" />
+
+        <div className='nav-img-profile'>
+          <img src="https://raw.githubusercontent.com/ariel2319/portfolio/main/src/assets/foto-portafolio.JPG" alt="foto perfil portfolio" />
+        </div>
+
+        <h2>Ariel  <br />  Maldonado</h2>
         <div className='nav-contacts'>
-          <div><i class="fa-brands fa-linkedin-in"></i></div>
-          <div><i class="fa-brands fa-github"></i></div>
-          <div><i class="fa-regular fa-id-card"></i></div>
+          <a href=""><i className="fa-brands fa-linkedin-in"></i> </a>
+          <a href=""><i className="fa-brands fa-github"></i> </a>
+          <a href=""> <i className="fa-regular fa-id-card"></i></a>
+
         </div>
       </div>
 
-      <div>
-        <div>Home</div>
-        <div>About Me</div>
-        <div>Skills</div>
-        <div>Proyectos</div>
-        <div>Contacto</div>
+      <div className='nav-sections'>
+
+        <a href=""><div>  <i className="fa-sharp fa-solid fa-house"></i> Home</div> </a>
+
+        <a href=""><div><i className="fa-regular fa-user"></i> About Me</div></a>
+
+        <a href=""><div><i className="fa-solid fa-list-check"></i> Skills</div></a>
+
+        <a href=""><div><i className="fa-solid fa-diagram-project"></i> Proyectos</div></a>
+
+        <a href=""><div><i className="fa-regular fa-envelope"></i> Contacto</div></a>
 
       </div>
     </div>
