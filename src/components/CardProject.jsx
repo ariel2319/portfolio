@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/projects-style.css'
 
-const CardProject = ({ title, description, img }) => {
+const CardProject = ({ title, description, img, url }) => {
   return (
     
-      <div className="card-proj">
+      <a href={url} target={'_blank'} className="card-proj">
 
         <div className="card-img-proj">
           <img src={img} alt="" />
@@ -15,7 +15,7 @@ const CardProject = ({ title, description, img }) => {
           {description}
         </div>
 
-      </div>
+      </a>
 
   );
 };

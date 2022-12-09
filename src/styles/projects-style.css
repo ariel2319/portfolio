@@ -1,9 +1,7 @@
 .project-container {
   width: 100%;
   background-color: var(--primary-bgcolor);
-  border: 1px solid greenyellow;
-
-
+  padding: 15px;
 }
 
 .projects {
@@ -34,7 +32,7 @@
   border: 1px solid rgba(255, 255, 255, 0.02);
   border-right-color: rgba(255, 255, 255, 0.01);
   border-bottom-color: rgba(255, 255, 255, 0.01);
-  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.8);
   padding: 12px;
 
   display: flex;

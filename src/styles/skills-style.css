@@ -1,7 +1,8 @@
 .skills-container {
   width: 100%;
   background-color: var(--secondary-bgcolor);
-  border: 1px solid greenyellow;
+  /* border: 1px solid greenyellow; */
+  padding: 15px;
 }
 
 .technology-container {
