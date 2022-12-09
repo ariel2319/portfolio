@@ -9,9 +9,6 @@ const Skills = () => {
       <h3>Technology</h3>
       <div className='technology-container'>
 
-
-
-
         <a href="" className='card js'>
           <div className='cor__cobertura'></div>
           <div className='circulo'>

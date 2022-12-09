@@ -26,6 +26,14 @@
   transition: 0.5s;
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
   overflow: hidden;
+  text-align: center;
+
+  background: linear-gradient(90deg, #3f5efb, #e2d7d9);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: letteraAnim 3s infinite ease-in-out;
 }
 
 .title:hover span:nth-child(1) {
@@ -40,7 +48,31 @@
   transition: 0.5s;
   clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0 100%);
   overflow: hidden;
+  text-align: center;
+
+  background: linear-gradient(90deg, #3f5efb, #e2d7d9);
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: letteraAnim 3s infinite ease-in-out;
 }
+
+@keyframes letteraAnim {
+  0% {
+    background-position: 0 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+
+}
+
 
 .title:hover span:nth-child(2) {
   transform: translateY(18px);
@@ -53,7 +85,15 @@
   transform: translateY(-50%) scaleY(0);
   width: 100%;
   color: #000;
-  background: #ff0;
+
+
+  background: linear-gradient(45deg, #dffb3f, #ece9ea,  #dffb3f);
+  background-size: 200% 200%;
+  -webkit-background-clip: border-box;
+  -webkit-text-fill-color: black;
+
+  animation: letBack 3s infinite ease-in-out;
+
   font-size: 0.33em;
   letter-spacing: 0.7em;
   text-align: center;
@@ -61,6 +101,23 @@
   margin-left: 0px;
   transition: 0.5s;
 }
+
+@keyframes letBack {
+  0% {
+    background-position: 0 80%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0 50%;
+  }
+
+}
+
+
 
 .title:hover span:nth-child(3) {
   transform: translateY(-50%) scaleY(1);

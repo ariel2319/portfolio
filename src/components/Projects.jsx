@@ -7,7 +7,14 @@ const Projects = () => {
     <div className='project-container'>
       <h1>Projects</h1>
 
-      <CardProject/>
+      <CardProject
+        title={'E-commerce'}
+        description={'E-commerce realizado utilizando ReactJs, React Router para rutas protegidas, React Hook Form'}
+        img={'https://raw.githubusercontent.com/ariel2319/portfolio/main/src/assets/projects/e-commerceReact.JPG'}
+      />
+
+
+
     </div>
   );
 };
