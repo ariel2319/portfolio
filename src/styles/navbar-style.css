@@ -1,6 +1,7 @@
 .nav-container{
-  background: indianred;
-  width: 280px;
+  /* background: indianred; */
+  border: 1px solid springgreen;
+  width: 25%;
   height: 100vh;
   position: fixed;
   font-family: Jurko;
@@ -36,12 +37,7 @@
   justify-content: center;
   align-items: center;
 }
-/* .nav-img-profile::after{
-  content: '';
-  position: absolute;
-  background: transparent;
-  inset: 4px;
-} */
+
 .nav-img-profile::before {
   content: '';
   position: absolute;

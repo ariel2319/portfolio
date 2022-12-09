@@ -12,10 +12,12 @@ function App() {
 
 
   return (
-    <div className='container'>
+    <div className='container-general'>
+
       <div className='app-navbar'>
         <NavBar />
       </div>
+
       <div className='app-body'>
         <Home />
         <AboutMe />
@@ -23,6 +25,7 @@ function App() {
         <Projects />
         <Contact />
       </div>
+      
     </div>
   )
 }

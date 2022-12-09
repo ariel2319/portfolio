@@ -3,8 +3,7 @@ import '../styles/projects-style.css'
 
 const CardProject = ({ title, description, img }) => {
   return (
-    <div>
-      
+    
       <div className="card-proj">
 
         <div className="card-img-proj">
@@ -18,8 +17,6 @@ const CardProject = ({ title, description, img }) => {
 
       </div>
 
-
-    </div>
   );
 };
 

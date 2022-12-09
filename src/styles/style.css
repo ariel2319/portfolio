@@ -1,46 +1,69 @@
 :root {
-  --primary-bgcolor: #fff;
-  --secondary-bgcolor: #f0f9fc;
-  --tertiary-color: #555000;
+  --primary-bgcolor: rgba(0,0,0,0.5);
+  --secondary-bgcolor: rgba(255,255,255,0.5);
+  --tertiary-color: rgba(252, 239, 57, 0.418);
   --primary-text-color: DarkSlateGray;
-  --secondary-text-color:GhostWhite ;
+  --secondary-text-color: GhostWhite;
   --tertiary-text-color: ;
   --accent-color: dodgerblue;
 }
+
 /*      GENERL     */
 @font-face {
   font-family: Jurko;
   src: url(../assets/ALT_JURKO.otf);
 }
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-h1, h2, h3,
-h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Jurko;
   color: var(--primary-text-color);
 }
-body{
+
+body {
+  width: 100%;
+  height: auto;
   background-image: url('../assets/bg-main.jpg');
-  background-repeat: no-repeat;
-  background-size: 100%; 
+  background-size: 100%;
   background-attachment: fixed;
   color: black;
   font-size: 24px;
 }
 
-.container{
-  width: 100%;
+.container-general {
+  width: 100vw; 
   display: flex;
+  justify-content: center;
   flex-direction: row;
 }
 
-.app-navbar{
-  width:280px;
+.app-navbar {
+  width: 25%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  background-color: var(--tertiary-color);
 }
+
 .app-body{
+  width: 75%;
+  max-width: 1200px;
+}
+/* .app-navbar{
+  width: 30%;
+  max-width: 350px;
+} */
+/* .app-body{
   width: calc(100% - 280px);
   align-items: flex-end;
-}
+} */
