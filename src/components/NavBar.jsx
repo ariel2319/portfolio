@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className='nav-container'>
       <div className='nav-info'>
 
-        <div className='nav-img-profile'>
+        <div className='nav-img-profile wiggle'>
           <img src="https://raw.githubusercontent.com/ariel2319/portfolio/main/src/assets/foto-portafolio.JPG" alt="foto perfil portfolio" />
         </div>
 
@@ -14,7 +14,7 @@ const NavBar = () => {
         <div className='nav-contacts'>
           <a href="https://www.linkedin.com/in/ariel-alejandro-maldonado-68276224b/" target={'_blank'}><i className="fa-brands fa-linkedin-in"></i> </a>
           <a href="https://github.com/ariel2319" target={'_blank'}><i className="fa-brands fa-github"></i> </a>
-          <a href=""> <i className="fa-regular fa-id-card"></i></a>
+          <a href="https://drive.google.com/file/d/1TwXGwlmLz1_jLuiG79S0GYlExSR4ESyL/view" target={'_blank'}> <i className="fa-regular fa-id-card"></i></a>
 
         </div>
       </div>

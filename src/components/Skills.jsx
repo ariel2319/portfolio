@@ -6,7 +6,7 @@ const Skills = () => {
     <div className='skills-container'>
       <h1 className='title-sector'>Skills</h1>
 
-      <h3>Technology</h3>
+      <h3 className='sub-title'>Technology</h3>
       <div className='technology-container'>
 
         <div className='card js'>
@@ -56,7 +56,7 @@ const Skills = () => {
           </div>
           <h5>Router</h5>
         </div>
-        
+
         <div href="" className='card git'>
           <div className='cor__cobertura'></div>
           <div className='circulo'>
@@ -85,13 +85,30 @@ const Skills = () => {
 
 
 
-      <h3>Habilidades</h3>
+      <h3 className='sub-title'>Habilidades</h3>
 
 
-      <h3>Resumen Académico</h3>
+      <h3 className='sub-title'>Resumen Académico</h3>
 
-      <h5>Desarrollador Front END</h5>
-      <p>ACADEMLO poner link</p>
+      <ul>
+
+        <li>
+          <h5>Desarrollador Front END</h5>
+          <p>Institución: <b> ACADEMLO </b></p>
+        </li>
+
+        <li>
+          <h5>Fundamento en HTML, CSS and JavaScript</h5>
+          <p>Institución: <b> ACADEMLO </b></p>
+        </li>
+
+        <li>
+          <h5>Profesorado para Técnicos <br /> en Base al Título de Procedencia <br />(en proceso)</h5>
+          <p>Institución: <b> IES 9-007 </b></p>
+        </li>
+
+      </ul>
+
     </div>
   );
 };

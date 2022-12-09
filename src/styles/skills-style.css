@@ -4,6 +4,9 @@
   /* border: 1px solid greenyellow; */
   padding: 15px;
 }
+.sub-title{
+margin: 40px 10px;
+}
 
 .technology-container {
   display: flex;

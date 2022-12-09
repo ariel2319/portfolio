@@ -4,7 +4,7 @@ import '../styles/home-style.css'
 
 const Home = () => {
   return (
-    <div className='home-container'>
+    <div className='home-container heartbeat'>
 
       <h2 className='title'>
         Ariel Maldonado 
